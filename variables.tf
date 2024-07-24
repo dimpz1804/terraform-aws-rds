@@ -18,3 +18,8 @@ variable "db_encrypted" {
   description = "Encrypt the database storage"
   type = bool
 }
+
+variable "engine"{
+  description = "Specify the DB engine"
+  type = string
+}
